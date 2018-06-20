@@ -37,3 +37,4 @@ POST params:
 
 - `url` - Product's url
 
+Returns whole structure of product.
