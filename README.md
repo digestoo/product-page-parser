@@ -30,11 +30,11 @@ docker run -it -p 5005:5005 mdruzkowski/product-page-parser
 ### parse
 
 ```bash
-curl -XPOST -H "Content-Type: application/json"  -d '{"url":"link_to_product"}'  http://localhost:5005/parse
+curl -XPOST -H "Content-Type: application/json"  -d '{"url":"link_to_product_feed"}'  http://localhost:5005/read
 ```
 
 POST params:
 
-- `url` - Product's url
+- `url` - Product feed url
 
-Returns whole structure of product.
+Returns list of products
